@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practicas Erick 3</title>
+	<link rel="stylesheet" type="text/css" href="styleXD.css">
+</head>
+<body>
+	<h1><center><font size="7" face="verdana">HTML</font></center></h1>
+	
+	<ul>
+		<li><font size="5" face="verdana"><a href="index.html" >HTML</a></font></li>
+		<br><li><font size="6"><a href="Prac2.html" >Imagenes, Videos, etc.</a></font></li>
+		<br><li><font size="6"><a href="Prac3.html" >Formularios, tablas, etc.</a></font>
+		</li>
+	</ul>
+
+	<p><font size="4" face="verdana">En HTML, los formularios y tablas son estructuras fundamentales que permiten a los usuarios interactuar con una página web y organizar datos de manera clara.</font></p>
+
+	<ul><font size="4" face="verdana">
+		<li><font size="6" face="verdana"><b>Formularios (<'form>)</b></font>
+			<p>Los formularios son esenciales para recolectar datos del usuario, como información de contacto, comentarios, o datos de inicio de sesión. Los formularios están compuestos por varios elementos de entrada (inputs), botones, y otros componentes. <br>Estructura básica: 
+			<br><br><b><'form action="procesar_formulario.php" method="post"><'/form></b>
+			<br><br>Atributos principales:</p>
+			<ul>
+				<li>'action': Especifica la URL a la que se enviarán los datos del formulario.</li>
+				<li>'method': Define el método HTTP para enviar los datos (GET o POST).</li>
+				<li><font size="6"><b>Campos de Entrada (<'input'>)</b></font>
+					<p>La etiqueta <'input'> es utilizada para crear diversos tipos de campos de entrada, como texto, contraseñas, casillas de verificación, etc.
+					<br>Tipos comunes de <'input'>: </p>
+					<ul>
+						<li><font size="4"><b>Texto (type="text"):</b></font></li>
+						<p><'label for="nombre">Nombre:<'/label>
+						<br><'input type="text" id="nombre" name="nombre">
+						<br><br>Resultado: </p>
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" name="nombre">
+
+						<li><font size="4"><b>Contraseña (type="password"):</b></font></li>
+						<p><'label for="password">Contraseña:<'/label>
+						<br><'input type="password" id="password" name="password">
+						<br><br>Resultado: </p>
+						<label for="password">Contraseña:</label>
+						<input type="password" id="password" name="password">
+
+						<li><font size="4"><b>Correo electrónico (type="email"):</b></font></li>
+						<p><'label for="email">Correo electrónico:<'/label>
+						<br><'input type="email" id="email" name="email">
+						<br><br><label for="email">Correo electrónico:</label>
+						<input type="email" id="email" name="email"></p>
+
+						<li><font size="4"><b>Casilla de verificación (type="checkbox"):</b></font></li>
+						<p><'label for="suscribir">Suscribirse:<'/label>
+						<br><'input type="checkbox" id="suscribir" name="suscribir">
+						<br><br><label for="suscribir">Suscribirse:</label>
+						<input type="checkbox" id="suscribir" name="suscribir"></p>
+
+						<li><font size="4"><b>Botón de envío (type="submit"):</b></font></li>
+						<p><'input type="submit" value="Enviar">
+						<br><br><input type="submit" value="Enviar"></p>
+					</ul>
+				</li>
+
+				<li><font size="4"><b>Área de Texto (<'textarea>)</b></font></li>
+				<p>La etiqueta <'textarea> se utiliza para crear un campo de texto multilínea.
+				<br>Ejemplo: 
+				<br><br><b><'label for="mensaje">Mensaje:<'/label>
+				<br><'textarea id="mensaje" name="mensaje" rows="4" cols="50"><'/textarea></b>
+				<br><br>Resultado:
+				<br><br><label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea></p>
+
+				<li><font size="4"><b>Listas de selección (<'select> y <'option>)</b></font></li>
+				<p>Para crear menús desplegables.
+				<br>Ejemplo:
+				<br><br><b><'label for="pais">País:<'/label>
+				<br><'select id="pais" name="pais">
+    			<br><'option value="mexico">México<'/option>
+    			<br><'option value="espana">España<'/option>
+    			<br><'option value="argentina">Argentina<'/option>
+    			<br><'/select></b>
+    			<br><br>Resultado:
+    			<br><br><label for="pais">País:</label>
+				<select id="pais" name="pais">
+    				<option value="mexico">México</option>
+    				<option value="espana">España</option>
+    				<option value="argentina">Argentina</option>
+				</select></p>
+
+			</ul>
+		</li>
+
+		<li>Herbívoro
+			<ul>
+				<li>Cabra</li>
+				<li>Vaca</li>
+			</ul>
+		</li>
+
+		<li>Omnívoro
+			<ul>
+				<li>Oso</li>
+				<li>Urraca</li>
+			</ul>
+		</li>
+	</ul></font>
+</body>
+</html>
